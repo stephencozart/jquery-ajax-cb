@@ -3,7 +3,8 @@
 `<input data-param1="foo" data-param2="bar" type="checkbox" name="something" value="1" />`
 
 ###The Javascript
-`$('input[type="checkbox"]').click(function() {
+`
+$('input[type="checkbox"]').click(function() {
         
         var mySuccess = function(data){
             alert(data.message);
